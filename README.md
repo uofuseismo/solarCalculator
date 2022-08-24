@@ -2,13 +2,13 @@
 
 ## Prerequisites
 
-    1. A C++20 compliant compiler.
-    2. CMake v 3.16 or greater.
-    3. UUSS's Time [library](https://github.com/uofuseismo/time).
+   1. A C++20 compliant compiler.
+   2. CMake v 3.16 or greater.
+   3. UUSS's Time [library](https://github.com/uofuseismo/time).
 
 ## Optional
 
-    1. Python3 and [pybind11](https://pybind11.readthedocs.io/en/stable/) for building the Python bindings.
+   1. Python3 and [pybind11](https://pybind11.readthedocs.io/en/stable/) for building the Python bindings.
 
 ## Configuring
 
