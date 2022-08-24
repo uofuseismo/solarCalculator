@@ -1,3 +1,7 @@
+# Overview
+
+This is a simple C++ utility for computing solar angle.  It is based on NOAA's [utility](https://gml.noaa.gov/grad/solcalc/).  The reason this exists is because a useful feature for quarry-blast discrimination in Utah is that blasting at night is forbidden.
+
 # Building the Software
 
 ## Prerequisites
