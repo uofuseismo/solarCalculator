@@ -61,6 +61,10 @@ set_target_properties(unitTests PROPERTIES
                       CXX_STANDARD_REQUIRED YES
                       CXX_EXTENSIONS NO)
 target_link_libraries(unitTests PRIVATE solarCalculator ${GTEST_BOTH_LIBRARIES})
+target_include_directories(unitTests
+                           PRIVATE
+                              $<BUILD_INTERFACE:${PUBLIC_HEADER_DIRECTORIES}>
+                              $<BUILD_INTERFACE:${GTEST_INCLUDE_DIRS}>)
 add_test(NAME unitsTests
          COMMAND unitTests)
 
